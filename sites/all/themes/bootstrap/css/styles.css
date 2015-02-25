@@ -1,0 +1,555 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	color:#383838;
+	font-size:13px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+h1 {
+	font-size: 29px;
+	color:#6d6e70;
+}
+
+h1.page-header {
+	margin-top:20px;
+	margin-bottom:0px;
+	padding-left:15px;
+	border:none;
+}
+
+
+
+.top {
+	background:#6d6e70;
+	position:fixed;
+	z-index:9998;
+	width:100%;
+	margin-right:0px;
+}
+
+
+.navbar-wrapper {
+	position:fixed;
+	z-index:9998;
+	top:180px;
+	top:52px;
+	background:#fff;
+	width:100%;
+	border-bottom:1px solid #ccc;
+}
+
+.main-container {
+	position:relative;
+}
+
+.container.slideshow {
+	position:relative;
+	top:150px;
+	height:560px;
+}
+.top .search {
+	margin-left:10px;
+}
+
+.top .social_icons {
+	
+}
+
+#overlay-container, .overlay-modal-background, .overlay-element {
+    z-index: 9999;
+}
+
+.top .social_icons a.facebook-btn{
+	background: url('../img/facebook.png') no-repeat;
+	width:23px;
+	height:23px;
+	display:block;
+}
+
+.top .social_icons a.facebook-btn:hover {
+	background: url('../img/facebook-hover.png') no-repeat;
+	text-decoration:none;
+}
+
+.top .social_icons a.twitter-btn{
+	background: url('../img/twitter.png') no-repeat;
+	width:17px;
+	height:23px;
+	display:block;
+}
+
+.top .social_icons a.twitter-btn:hover{
+	background: url('../img/twitter-hover.png') no-repeat;
+	text-decoration:none;
+}
+
+.top .social_icons a.vimeo-btn{
+	background: url('../img/vimeo.png') no-repeat;
+	width:26px;
+	height:23px;
+	display:block;
+}
+
+.top .social_icons a.vimeo-btn:hover{
+	background: url('../img/vimeo-hover.png') no-repeat;
+	text-decoration:none;
+}
+
+.top .social_icons a.linkedin-btn{
+	background: url('../img/linkedin.png') no-repeat;
+	width:23px;
+	height:23px;
+	display:block;
+}
+
+.top .social_icons a.linkedin-btn:hover{
+	background: url('../img/linkedin-hover.png') no-repeat;
+	text-decoration:none;
+}
+
+.top .social_icons a.youtube-btn{
+	background: url('../img/youtube.png') no-repeat;
+	width:23px;
+	height:23px;
+	display:block;
+}
+
+.top .social_icons a.youtube-btn:hover{
+	background: url('../img/youtube-hover.png') no-repeat;
+	text-decoration:none;
+}
+
+.top .social_icons a.googleplus-btn{
+	background: url('../img/google-plus.png') no-repeat;
+	width:23px;
+	height:23px;
+	display:block;
+}
+
+.top .social_icons a.googleplus-btn:hover{
+	background: url('../img/google-plus-hover.png') no-repeat;
+	text-decoration:none;
+}
+
+.top .social_icons a.pinterest-btn{
+	background: url('../img/pinterest.png') no-repeat;
+	width:23px;
+	height:23px;
+	display:block;
+}
+
+.top .social_icons a.pinterest-btn:hover{
+	background: url('../img/pinterest-hover.png') no-repeat;
+	text-decoration:none;
+}
+
+.region-social-icons a.twitter-btn {
+	margin-right:2px;
+}
+
+.carousel-inner {
+	/*position:relative;*/
+}
+
+.carousel-inner .item {
+	/*position:relative;*/
+}
+
+.carousel-generic {
+	position:relative;
+}
+
+.slide_caption {
+  /*z-index: 1000;
+  position:absolute;
+  right:0;
+  top:0;*/
+  z-index:1000;
+  position:absolute;
+  right:30px;
+  width:330px;
+  background-image:url('../img/slideshow-overlay.png');
+  background-repeat:no-repeat; 
+  background-size:contain;
+  background-position:top;
+  height:400px;
+}
+
+.slide_caption .inner {
+	width:250px;
+	margin-left:80px;	
+	margin-top:40px;
+}
+
+.carousel-indicators {
+	left:50px;
+}
+
+.slide_caption .title {
+	color:#6d6e70;
+	font-size:20px;	
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+.slide_caption .description {
+	color:#6d6e70;
+	font-size:13px;	
+}
+
+.slide_text {
+	display:none;
+}
+
+/* 
+ * Navigation
+ */
+
+.nav > li > a { 
+	padding:10px 5px 10px 10px;
+}
+.navbar-default {
+	background:none;
+	border:none;	
+}
+
+.menu.nav.navbar-nav {
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+.menu.nav.navbar-nav {
+	margin-top:37px;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background:none;
+    color: #555555;
+}
+
+.region-social-icons {
+	overflow:auto;	
+}
+
+.region-social-icons a {
+	float:right;	
+	margin-right:6px;
+}
+
+.newsletter {
+	width:340px;
+	float:left;
+	margin-left:35%;
+}
+
+.top .search {
+	width:20%;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.top .social_icons {
+	width:160px;
+	float:left;
+	margin-top:13px;
+	margin-bottom:10px;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform 
+{
+	min-height:0px;
+	padding-bottom: 2px;
+}
+
+.search .input-group .form-control:first-child, .search .input-group button:hover, .search .input-group button
+{
+	border-radius:0;
+	border:none;
+	background:#e6e6e6;
+	padding:6px 12px 4px 12px;
+}
+#mc-embedded-subscribe-form {
+	background:none;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform label {
+    display: inline !important;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform  {
+    max-width: 350px;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform  input {
+    display: inline;
+    padding: 0;
+    margin-top:5px;
+    text-indent: 2%;
+    height:20px;
+    max-width:130px;
+    border:none;
+    background:#e6e6e6;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform .input-group-btn {
+	display:inline;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform  .input-group-addon {
+	vertical-align:top;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform span.input-group-btn {
+	width:13px;
+	height:15px;
+	vertical-align:top;
+}
+
+
+#mc_embed_signup .mc-field-group.mailchimpform span.input-group-btn button.btn.btn-default {
+	width:13px;
+	height:15px;
+	vertical-align:top;
+	margin-top:7px;
+}
+
+#mc_embed_signup .mc-field-group.mailchimpform label {
+	font-weight:normal;
+	color:#f6921e;	
+}
+
+#mc_embed_signup .input-group-btn button {
+	background:url('../img/newsletter-submit.png') no-repeat;
+	border:none;
+	padding: 6px 7px;
+}
+
+#mc_embed_signup .newsletterform input {
+	background:none;
+	border:none;
+}
+
+#mc_embed_signup .newsletterform {
+	display:inline;
+	background:#fff;
+	height:30px;
+}
+
+.mailchimpform > div {
+	display:inline-block;
+	line-height:20px;
+	height:30px;
+	margin-left:10px;
+	border:1px solid #ccc;
+	background:#e6e6e6;
+}
+
+#edit-search-block-form--2 {
+	    padding: 5px 12px 5px 7px;
+	    height:30px;
+}
+
+.navbar {
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.navbar.container {
+	margin-top:0px;
+}
+
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "\00BB";
+    padding: 0 5px;
+}
+
+ol.breadcrumb {
+	margin-top:20px;
+	background:none;
+	padding-left:0px;
+	color:#383838;
+}
+
+ol.breadcrumb a {
+	color:#383838;
+}
+
+.home-project-block {
+	background:#f6921e;
+	padding:16px;
+}
+
+.home-project-block a{
+	font-weight:bold;
+	color:#fff;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:25px;
+}
+
+
+.over-ons, .projecten-right, .nieuwsitem {
+	line-height:25px;
+	padding:0px 16px 16px 16px;
+	font-size:15px;
+}
+
+.over-ons-left, .nieuwsitem-left {
+	border-right:1px solid #ccc;
+}
+
+.over-ons a, .projecten-right a{
+	font-weight:bold;
+	color:#6d6e70;
+	
+	line-height:25px;
+}
+
+.view-id-nieuws h3 {
+	color:#6D6E70;
+	font-size:17px;
+	margin-bottom:2px;
+}
+
+span.news-time {
+	font-size:12px;
+	padding-bottom:4px;
+}
+
+.image-gallery > div {
+	max-width:50%;
+	margin-bottom:10px;
+	margin-right:10px;
+	float:left;
+}
+
+h3.slogun {
+	color:#f6921e;
+	font-weight:normal;
+	margin-top:0px;
+}
+
+::-webkit-input-placeholder {
+   color: #8c8c8c;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #8c8c8c; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #8c8c8c; 
+}
+
+:-ms-input-placeholder {  
+   color: #8c8c8c;  
+}
+
+@media (max-width: 1200px) { 
+	.newsletter{
+		margin-left:0px;
+	}
+	.slide_caption {
+		background:url("../img/slideshow-bg.png");
+		height:321px;
+	}
+	.slide_caption .inner {
+		margin-left:55px;
+	}
+	.navbar-nav > li > a {
+	    padding-left: 8px;
+	    padding-right: 8px;
+	}
+}
+
+@media (max-width: 991px) { 
+	.slide_caption {
+		height:246px;
+	}
+}
+
+@media (max-width: 690px) { 
+	.slide_caption {
+		height:226px;
+	}
+}
+
+@media (max-width: 590px) { 
+	.slide_caption {
+		height:190px;
+	}
+}
+
+@media (max-width: 490px) { 
+	.slide_caption .inner{
+		display:none;
+	}
+	.slide_caption {
+		background:none;
+	}
+	
+}
+
+@media (max-width: 600px) { 
+	.newsletter{
+		display:none;
+	}
+	.search{
+		display:none;
+	}
+}
+
+#mc_embed_signup  div#mce-responses {
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+
+#mc_embed_signup #mce-success-response {
+    color: #fff;
+}
+
+.view-nieuws {
+	padding-left:15px;
+}
+
+.dropdown-menu > li > a {
+	font-size:13px;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    display:none;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background:none;
+    color: #333333;
+    font-size:13px;
+}
+
+
+body #admin-menu {
+    z-index: 9999;
+}
+
+.content img {
+	max-width:100%;
+}
+
